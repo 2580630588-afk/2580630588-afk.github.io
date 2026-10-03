@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "citation": "City Syntax Lab. Buildings.sg: open building archetypes and EnergyPlus templates. Office model 06_Office_SGP_2025_V5.idf. Accessed 2026-10-03.",
+    "url": "https://github.com/City-Syntax/buildings.sg"
+  },
+  {
+    "id": 2,
+    "citation": "EnergyPlus. Version 24.2 Input Output Reference: ZoneHVAC:IdealLoadsAirSystem.",
+    "url": "https://bigladdersoftware.com/epx/docs/24-2/input-output-reference/group-zone-forced-air-units.html#zonehvacidealloadsairsystem"
+  },
+  {
+    "id": 3,
+    "citation": "Markarian, E., et al. (2024, online). Informing building retrofits at low computational costs: a multi-objective optimisation using machine learning surrogates of building performance simulation models. Journal of Building Performance Simulation.",
+    "url": "https://doi.org/10.1080/19401493.2024.2384487"
+  },
+  {
+    "id": 4,
+    "citation": "Thrampoulidis, E., Mavromatidis, G., Lucchi, A., and Orehounig, K. (2021). A machine learning-based surrogate model to approximate optimal building retrofit solutions. Applied Energy, 281, 116024.",
+    "url": "https://doi.org/10.1016/j.apenergy.2020.116024"
+  },
+  {
+    "id": 5,
+    "citation": "Ladybug Tools. Singapore IWEC weather file, WMO 486980, UWG repository.",
+    "url": "https://github.com/ladybug-tools/uwg/blob/master/resources/SGP_Singapore.486980_IWEC.epw"
+  },
+  {
+    "id": 6,
+    "citation": "Scikit-learn. Cross-validation: evaluating estimator performance; grouped validation.",
+    "url": "https://scikit-learn.org/stable/modules/cross_validation.html"
+  }
+]
