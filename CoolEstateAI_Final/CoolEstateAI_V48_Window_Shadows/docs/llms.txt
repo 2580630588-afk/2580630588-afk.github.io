@@ -1,0 +1,19 @@
+# CoolEstate AI
+
+CoolEstate AI is a Singapore HDB estate design concept dashboard with interactive 3D building visualization.
+
+## Machine-readable API
+- GET /v1/project — project purpose, formulas, limitations
+- GET /v1/estates — supported HDB areas and geographic coordinates
+- POST /v1/scenarios/evaluate — calculate illustrative outdoor risk and facade solar exposure scores
+- GET /v1/buildings?estate=Clementi&limit=100 — clipped building footprints, only if dataset extracts deployed
+- GET /openapi.json — OpenAPI specification
+- GET /docs — interactive Swagger API documentation
+
+## Model caution
+Risk index = 0.45*(100-greenery)+0.35*(100-shading)+0.20*density.
+Facade proxy = clamp(35+0.6*(wwr-40)-10*horizontal_shading_m-7*vertical_shading_m,0,100).
+These are unvalidated heuristic indices, NOT real temperatures, UTCI, energy savings, CFD, solar irradiation or thermal comfort simulation.
+
+## Data
+Buildings.sg geometry is used when the user supplies the source ZIP or local extracted data. Building heights can be estimated. Tree and shading interventions are schematic. Confirm source licensing before republishing building extracts.
